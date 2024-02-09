@@ -9,6 +9,8 @@ public class Application {
         InitData initData = new InitData(animalController);
         initData.initialize();
         initData.getAllAnimals();
+        initData.getAllSorted();
+        initData.getSortedByAge();
     }
 
 
