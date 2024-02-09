@@ -1,6 +1,6 @@
-package animal.application;
+package base.animal.application;
 
-import animal.generic.Animal;
+import base.animal.generic.Animal;
 
 public class Application {
 
