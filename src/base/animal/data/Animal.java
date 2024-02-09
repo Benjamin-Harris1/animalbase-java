@@ -1,4 +1,4 @@
-package base.animal.generic;
+package base.animal.data;
 
 public class Animal {
     private int id;
