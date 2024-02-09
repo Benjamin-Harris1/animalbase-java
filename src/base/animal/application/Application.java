@@ -1,12 +1,14 @@
 package base.animal.application;
 
-import base.animal.data.Animal;
+import base.animal.controller.AnimalController;
 
 public class Application {
 
     public void start(){
-        Animal animal = new Animal("Horsey the horsing horse", 37);
-        System.out.println(animal);
+        AnimalController animalController = new AnimalController();
+        InitData initData = new InitData(animalController);
+        initData.initialize();
+        initData.getAllAnimals();
     }
 
 

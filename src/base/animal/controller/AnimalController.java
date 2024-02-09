@@ -12,8 +12,8 @@ public class AnimalController implements Controller<Animal> {
 
     @Override
     public void create(Animal object) {
+        object.setId(nextId);
         animals.put(nextId, object);
-        System.out.println("Animal create with id: " + nextId);
         nextId++;
 
     }
